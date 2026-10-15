@@ -1,0 +1,39 @@
+folder:
+  data_dir: src/data/dataset/
+  output_dir: src/output/
+  ann_file: annotations.json
+training:
+  batch_size: 4
+  seq_length: 1
+  learning_rate: 0.0001
+  deterministic: warn
+  augment: true
+  resize_ratio: null
+  save_checkpoints: true
+  num_gpus: 1
+  num_workers: 14
+  early_stop_patience: 50
+  gradient_clip_val: null
+  mean: [ 0.003985573071986437, 0.007436343468725681, 0.006025394424796104 ]
+  std: [ 0.005076383240520954, 0.001543964259326458, 0.002112714806571603 ]
+loss:
+  bbox_loss_coefficient: 5
+  classification_loss_coefficient: 1
+  focal_alpha: 0.25
+  giou_loss_coefficient: 2
+  use_auxiliary_loss: false
+  auxiliary_loss_coefficient: 1/15
+model:
+  name: defdetr
+  positional_encoding: sine
+  two_stage: false
+  box_refine: true
+  bbox_cost: 5
+  class_cost: 3
+  giou_cost: 2
+misc:
+  img_type: rgb
+  channel: 1
+  iou_threshold: 0.3
+  low_conf_upper: 0.45
+  low_conf_lower: 0.25

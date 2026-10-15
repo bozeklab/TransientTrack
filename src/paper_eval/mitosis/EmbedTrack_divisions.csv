@@ -1,0 +1,11 @@
+sequence,method,DIV_nGT,DIV_nPred,DIV_WC,DIV_TP_i0,DIV_TP_i1,DIV_TP_i2
+001,EmbedTrack,22,58,7,11,13,14
+002,EmbedTrack,14,82,2,6,9,9
+003,EmbedTrack,24,97,4,10,11,12
+004,EmbedTrack,19,47,7,6,7,8
+005,EmbedTrack,18,47,2,8,9,11
+006,EmbedTrack,19,63,5,8,10,10
+007,EmbedTrack,23,76,6,12,15,15
+008,EmbedTrack,12,44,0,6,8,8
+009,EmbedTrack,15,40,4,6,8,9
+010,EmbedTrack,10,51,1,2,4,4

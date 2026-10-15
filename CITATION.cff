@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+title: "TransientTrack"
+message: "If you use this software or the pretrained models, please cite the associated publication."
+abstract: >-
+  A deep learning framework for cell tracking in multi-channel fluorescence
+  microscopy videos with transient signals, jointly detecting mitosis and
+  apoptosis to reconstruct complete trajectories with lineage information.
+type: software
+authors:
+  - family-names: "Bürger"
+    given-names: "Florian"
+    orcid: "https://orcid.org/0000-0003-1854-2409"
+
+repository-code: "https://github.com/bozeklab/TransientTrack"
+url: "https://github.com/bozeklab/TransientTrack.git"
+license: MIT
+keywords:
+  - cell tracking
+  - multi-object tracking
+  - fluorescence microscopy
+  - mitosis detection
+  - apoptosis detection
+  - deep learning
+
+version: "1.0.0"
+date-released: "TODO"
+
+preferred-citation:
+  type: article
+  title: "TransientTrack: TODO"
+  authors:
+    - family-names: "Bürger"
+      given-names: "Florian"
+    - family-names: "Dias Gomes"
+      given-names: "Martim"
+    - family-names: "Gutu"
+      given-names: "Nica"
+    - family-names: "Granada"
+      given-names: "Adrián E."
+    - family-names: "Moreau"
+      given-names: "Noémie"
+    - family-names: "Bozek"
+      given-names: "Katarzyna"
+
+  journal: "IEEE Transactions on Medical Imaging"
+  year: 2026
+  doi: TODO
