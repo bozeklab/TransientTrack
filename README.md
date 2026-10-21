@@ -2,9 +2,6 @@
 <h1 align="center">TransientTrack</h1>
 <h2 align="center">Advanced Multi-Object Tracking and Classification of Cancer Cells with Transient Fluorescent Signals</h2>
 
-<a href="https://arxiv.org/abs/2512.01885">
-  <img src="https://img.shields.io/badge/arXiv-2512.01885-b31b1b.svg" alt="Static Badge">
-</a>
 <a href="https://doi.org/10.1109/TMI.2026.3744441">
   <img src="https://img.shields.io/badge/Paper-IEEE TMI-green?style=flat&label=Paper&link=https://doi.org/10.1109/TMI.2026.3744441" alt="Static Badge">
 </a>
