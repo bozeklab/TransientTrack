@@ -92,8 +92,7 @@ src/data/dataset/
 
 Each video is a directory named by its **position ID** (`001`, `002`, …), matching the `name` field of the corresponding entry in `annotations.json`.
 
-Each frame is a three-channel 16-bit TIFF. As read by `tifffile`, the sample
-order is:
+Each frame is a three-channel 16-bit TIFF. As read by `tifffile`, the sample order is:
 
 | Sample index | Reporter | Measures |
 |---|---|---|
@@ -112,6 +111,9 @@ Dosage information is available for 154 positions, assigned by position ID:
 | Low | 166–201 | 7 µM |
 | Control | 274–309 | – |
 
+**Events.** `time_of_division` is the frame at which a parent cell divides into two daughters; `time_of_death` is the frame at which a cell is first annotated as dead. Both are absolute frame indices on the same scale as `time_step`.
+
+**Two conventions around death.** Cells were in some cases annotated for a few frames beyond the recorded death, where a coherent cell structure was still visible — 3,040 tracks continue past `time_of_death`.
 
 ### 2. CTC Evaluation Software
 
